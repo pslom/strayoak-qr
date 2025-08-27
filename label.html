@@ -28,17 +28,18 @@
     }
   </style>
 
-  <!-- Google Analytics -->
+  <!-- ✅ Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWJF8HP49F"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-KWJF8HP49F');
-    // Redirect after 900ms so GA fires + branding shows
+
+    // Delay redirect so GA fires
     setTimeout(() => {
       window.location.href = "https://strayoakspirits.com";
-    }, 900);
+    }, 1000); // 1 second
   </script>
 </head>
 <body>
