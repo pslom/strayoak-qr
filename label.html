@@ -2,7 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Redirecting…</title>
+  <title>Stray Oak Spirits</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background-color: #111; /* deep charcoal */
+      color: #f5f5f5; /* soft white */
+    }
+    .logo {
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    .tagline {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      font-style: italic;
+      opacity: 0.9;
+    }
+  </style>
+
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWJF8HP49F"></script>
   <script>
@@ -10,14 +35,14 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-KWJF8HP49F');
-    // Redirect after 500ms so GA logs the scan
+    // Redirect after 700ms so GA fires + branding shows
     setTimeout(() => {
       window.location.href = "https://strayoakspirits.com";
-    }, 500);
+    }, 700);
   </script>
 </head>
 <body>
-<p>Taking you to Stray Oak Spirits…</p>
+  <div class="logo">STRAY OAK SPIRITS</div>
+  <div class="tagline">Raise a glass to save a life</div>
 </body>
 </html>
-
