@@ -1,5 +1,5 @@
 {
-  "redirects": [
-    { "source": "/label", "destination": "https://strayoakspirits.com", "permanent": true }
+  "routes": [
+    { "src": "/label", "dest": "/label.html" }
   ]
 }
